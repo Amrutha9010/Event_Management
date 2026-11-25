@@ -21,7 +21,7 @@ class ErrorBoundary extends Component {
     if (this.state.hasError) {
       return (
         <div className="empty empty-card">
-          <h2>EventHub could not load this view.</h2>
+          <h2>Eventora could not load this view.</h2>
           <p>Please refresh the page or go back to the events list.</p>
           <Link className="btn primary" to="/events">
             View Events

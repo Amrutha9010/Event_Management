@@ -2,7 +2,7 @@ function CompanyPage() {
   return (
     <section className="legal-page">
       <div className="legal-hero">
-        <span>About EventHub</span>
+        <span>About Eventora</span>
         <h1>Company Details</h1>
         <p>Event management platform for attendees and organizers.</p>
       </div>
@@ -10,7 +10,7 @@ function CompanyPage() {
       <div className="company-grid">
         <article className="card">
           <span>Platform</span>
-          <h2>EventHub EMS</h2>
+          <h2>Eventora EMS</h2>
           <p>
             A full-stack event management system built to discover events, manage bookings, handle
             customer records, and support admin operations from one dashboard.
@@ -38,7 +38,7 @@ function CompanyPage() {
         <article>
           <h2>Registered details</h2>
           <p>
-            EventHub, Inc. is used as the project brand name for this application. Replace this section
+            Eventora, Inc. is used as the project brand name for this application. Replace this section
             with official organization address, GST/tax details, support email, and legal entity details
             before public production deployment.
           </p>

@@ -2,7 +2,7 @@ function PrivacyPage() {
   return (
     <section className="legal-page">
       <div className="legal-hero">
-        <span>EventHub Privacy</span>
+        <span>Eventora Privacy</span>
         <h1>Privacy Policy</h1>
         <p>Last updated: May 9, 2026</p>
       </div>
@@ -11,7 +11,7 @@ function PrivacyPage() {
         <article>
           <h2>Information we collect</h2>
           <p>
-            EventHub collects account details such as name, email address, role, booking activity,
+            Eventora collects account details such as name, email address, role, booking activity,
             saved events, reviews, and event management records needed to run the platform.
           </p>
         </article>
@@ -39,7 +39,7 @@ function PrivacyPage() {
         <article>
           <h2>Contact</h2>
           <p>
-            For privacy questions, contact the EventHub administrator responsible for this deployment.
+            For privacy questions, contact the Eventora administrator responsible for this deployment.
           </p>
         </article>
       </div>

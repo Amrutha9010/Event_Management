@@ -43,7 +43,7 @@ function RegisterPage() {
     <div className="form-layout">
       <form className="card form-card" onSubmit={handleSubmit} autoComplete="off">
         <h2>Create Account</h2>
-        <p>Join EventHub and reserve your seats in seconds.</p>
+        <p>Join Eventora and reserve your seats in seconds.</p>
         <label>
           Full Name
           <input

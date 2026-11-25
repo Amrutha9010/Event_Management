@@ -171,11 +171,11 @@ function AdminDashboardPage() {
           ) : (
             <ResponsiveContainer width="100%" height={260}>
               <BarChart data={bookingsByMonth} margin={{ top: 8, right: 12, left: -14, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#eee7dc" vertical={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" vertical={false} />
                 <XAxis dataKey="month" />
                 <YAxis allowDecimals={false} />
                 <Tooltip />
-                <Bar dataKey="bookings" fill="#e63946" radius={[8, 8, 0, 0]} barSize={34} />
+                <Bar dataKey="bookings" fill="#6d28d9" radius={[8, 8, 0, 0]} barSize={34} />
               </BarChart>
             </ResponsiveContainer>
           )}
@@ -191,11 +191,11 @@ function AdminDashboardPage() {
           ) : (
             <ResponsiveContainer width="100%" height={260}>
               <LineChart data={revenueByMonth} margin={{ top: 8, right: 18, left: -8, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#eee7dc" vertical={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" vertical={false} />
                 <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip formatter={(value) => [`Rs ${Number(value).toLocaleString("en-IN")}`, "Revenue"]} />
-                <Line type="monotone" dataKey="revenue" stroke="#0f766e" strokeWidth={3} dot={{ r: 5, fill: "#0f766e" }} />
+                <Line type="monotone" dataKey="revenue" stroke="#172554" strokeWidth={3} dot={{ r: 5, fill: "#172554" }} />
               </LineChart>
             </ResponsiveContainer>
           )}
@@ -211,11 +211,11 @@ function AdminDashboardPage() {
           ) : (
             <ResponsiveContainer width="100%" height={280}>
               <BarChart data={eventPopularity} layout="vertical" margin={{ top: 8, left: 26, right: 20, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#eee7dc" horizontal={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" horizontal={false} />
                 <XAxis type="number" allowDecimals={false} />
                 <YAxis dataKey="event" type="category" width={150} />
                 <Tooltip />
-                <Bar dataKey="bookings" fill="#0f766e" radius={[0, 8, 8, 0]} barSize={28} />
+                <Bar dataKey="bookings" fill="#172554" radius={[0, 8, 8, 0]} barSize={28} />
               </BarChart>
             </ResponsiveContainer>
           )}

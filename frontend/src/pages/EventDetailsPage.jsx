@@ -117,7 +117,7 @@ function EventDetailsPage() {
         )}
         <div className="detail-row">
           <span>Organizer</span>
-          <strong>{eventItem.organizerName || "EventHub"}</strong>
+          <strong>{eventItem.organizerName || "Eventora"}</strong>
         </div>
         {eventItem.organizerContact && <p>{eventItem.organizerContact}</p>}
         <div className="detail-row">

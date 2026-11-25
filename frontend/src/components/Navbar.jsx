@@ -27,7 +27,7 @@ function Navbar() {
           <span className="brand-mark" aria-hidden="true">
             <span className="brand-dot" />
           </span>
-          EventHub
+          Eventora
         </Link>
 
         <button
@@ -44,9 +44,9 @@ function Navbar() {
 
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <NavLink to="/" onClick={closeMenu}>Home</NavLink>
-          <NavLink to="/events" onClick={closeMenu}>Events</NavLink>
+          <NavLink to="/events" onClick={closeMenu}>Explore Events</NavLink>
           {!isAdmin && isAuthenticated && <NavLink to="/cart" onClick={closeMenu}>Cart ({count})</NavLink>}
-          {isAuthenticated && !isAdmin && <NavLink to="/dashboard" onClick={closeMenu}>Dashboard</NavLink>}
+          {isAuthenticated && !isAdmin && <NavLink to="/dashboard" onClick={closeMenu}>My Bookings</NavLink>}
           {isAdmin && <NavLink to="/admin" onClick={closeMenu}>Admin</NavLink>}
         </div>
 
