@@ -119,13 +119,13 @@ event-management-system/
 
 ### 1. MySQL
 
-Create a MySQL database:
+Create the MySQL database once (Spring Boot cannot connect until the database exists):
 
 ```sql
 CREATE DATABASE ems_db;
 ```
 
-You can either run `database/ems_schema.sql` manually or let Spring Boot update the schema automatically with `spring.jpa.hibernate.ddl-auto=update`.
+When you start the backend with the `dev` profile from the documented project commands, Spring Boot loads `database/ems_schema.sql` before Hibernate updates the remaining application tables. The dev profile also creates demo users, coupons, and events. You do not need to run `database/sample_data.sql`; it is a one-time manual import and includes fixed sample booking IDs.
 
 ### 2. Backend
 
