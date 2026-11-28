@@ -2,7 +2,7 @@
 
 A full-stack Event Management System built with React, Spring Boot, JWT security, and MySQL. Users can browse events, save favorites, book tickets, and track booking status. Admins can manage events, approve bookings, check in attendees, and view analytics.
 
-![EventHub Home](docs/images/eventhub-home.svg)
+![EventHub Home](docs/images/eventhub-home.png)
 
 ## Tech Stack
 
@@ -36,7 +36,7 @@ A full-stack Event Management System built with React, Spring Boot, JWT security
 - Check in accepted bookings.
 - View booking analytics and total revenue.
 
-![EventHub Dashboard](docs/images/eventhub-dashboard.svg)
+![EventHub Dashboard](docs/images/eventhub-dashboard.png)
 
 ## Seeded Events
 
